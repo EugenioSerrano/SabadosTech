@@ -44,5 +44,3 @@ var c3 = new Cliente(
 c3.save(function (err) {
 if (err) return handleError(err);
 });
-
-  
