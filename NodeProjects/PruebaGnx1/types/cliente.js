@@ -10,9 +10,9 @@ const ClienteType = new GraphQLObjectType({
   name: 'Cliente',
   fields: () => ({
     id: { type: GraphQLID },
-    Nombre: { type: GraphQLString },
-    Apellido: { type: GraphQLString },
-    Edad: { type: GraphQLInt }
+    nombre: { type: GraphQLString },
+    apellido: { type: GraphQLString },
+    edad: { type: GraphQLInt }
   })
 })
 

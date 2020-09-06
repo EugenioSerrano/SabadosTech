@@ -1,0 +1,1 @@
+exports.Cliente = require('./cliente')

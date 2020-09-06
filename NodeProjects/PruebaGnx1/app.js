@@ -4,14 +4,14 @@ const gnx = require('@simtlix/gnx');
 const app = express();
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017,localhost:27018,localhost:27019/example',
- { replicaSet: 'rs', useNewUrlParser: true, useUnifiedTopology: true });
+var uri = "mongodb://localhost:27017/PruebaGnx1";
+mongoose.connect(uri, { useUnifiedTopology: true, useNewUrlParser: true });
 
 mongoose.connection.once('open', () => {
   console.log('connected to database')
 });
 
-const {type} = require('./types');
+const type = require('./types');
 const includedTypes = [type.Cliente];
 
 /* This route will be used as an endpoint to interact with Graphql,
