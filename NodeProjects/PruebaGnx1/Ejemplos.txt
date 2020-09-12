@@ -1,0 +1,13 @@
+Ejemplos de consultas
+
+{
+	clientes(
+    
+    edad: {operator:BTW, value:[20,60]},
+    nombre: {operator:LIKE, value:"o"} , 	
+    sort: {terms:{field:"nombre", order:ASC}}
+  )
+  {id, nombre, edad} 
+  
+}
+
