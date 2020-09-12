@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
   "keywords": [],
   "author": "",
   "license": "MIT",
@@ -14,6 +15,6 @@
     "express": "^4.17.1",
     "express-graphql": "^0.11.0",
     "graphql": "^15.3.0",
-    "mongoose": "^5.10.3",
+    "mongoose": "^5.10.3"
   }
 }
