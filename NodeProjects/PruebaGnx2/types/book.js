@@ -24,7 +24,7 @@ const BookState = new GraphQLEnumType({
 const ChildBookValidation = {
   validate: async function (type, param, materialized) {
     if (materialized.rootBook) {
-      //throw new Error('ERROOOOOOOOOOR')
+      // throw new Error('ERROOOOOOOOOOR')
     }
   }
 }

@@ -4,7 +4,8 @@ const gnx = require('@simtlix/gnx')
 const app = express()
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb://localhost:27017,localhost:27018,localhost:27019/example', { replicaSet: 'rs', useNewUrlParser: true, useUnifiedTopology: true })
+var uri = 'mongodb://localhost:27017/PruebaGnx2'
+mongoose.connect(uri, { useUnifiedTopology: true, useNewUrlParser: true })
 
 mongoose.connection.once('open', () => {
   console.log('connected to database')
@@ -41,7 +42,6 @@ app.use('/graphql2', graphqlHTTP({
   })
 
 }))
-
 
 app.listen(3000, () => {
   console.log('Listening on port 3000')
