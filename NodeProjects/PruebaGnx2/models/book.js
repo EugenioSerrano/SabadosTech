@@ -14,7 +14,7 @@ const bookSchema = new Schema({
     }
   },
   categories: [{
-    name: String,
+    // name: String,
     category_ID: mongoose.Schema.Types.ObjectId
   }]
 })

@@ -1,6 +1,7 @@
 const graphql = require('graphql')
 const ISBNType = require('./isbn')
 const AssignedCategoryType = require('./assignedCategory')
+// const CategoryType = require('./category')
 const Author = require('../models/author')
 const gnx = require('@simtlix/gnx')
 

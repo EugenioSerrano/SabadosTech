@@ -4,13 +4,13 @@ const Category = require('../models/category')
 const gnx = require('@simtlix/gnx')
 
 const {
-  GraphQLObjectType, GraphQLString
+  GraphQLObjectType // GraphQLString
 } = graphql
 
 const AssignedCategoryType = new GraphQLObjectType({
   name: 'AssignedCategory',
   fields: () => ({
-    name: { type: GraphQLString },
+    // name: { type: GraphQLString },
     category: {
       type: CategoryType,
       extensions: {
