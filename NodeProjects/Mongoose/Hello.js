@@ -56,5 +56,3 @@ var data = [
         console.log(result);
     }
   });
-
-  
