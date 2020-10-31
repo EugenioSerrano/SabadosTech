@@ -6,7 +6,8 @@ class DivRoot extends React.Component {
 
   render() {
         var contador = this.state.contador;
-        var label = React.createElement("label",{key:"label"},contador);
+      //  var label = React.createElement("label",{key:"label"},contador);
+        var label = <label>{contador}</label>
         var button = React.createElement("button",{key:"button", onClick: () => this.setState({contador:contador+1})},"Aumentar");
         var br = React.createElement("br",{key:"br"});
         var div = React.createElement("div",null,[label,br,button]);
@@ -16,3 +17,5 @@ class DivRoot extends React.Component {
 
 const domContainer = document.querySelector('#rootDiv');
 ReactDOM.render(React.createElement(DivRoot), domContainer);
+
+
