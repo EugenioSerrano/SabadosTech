@@ -1,16 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import App from './App';
-import MC from './MC';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <MC />,
-  document.getElementById('root22')
-);
+class DivRoot extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { contador: 0 };
+  }
+  onClickAumentar(){
+    this.setState({
+      contador : this.state.contador +1
+    });
+  }
+  render() {
+    return(
+      <div>
+        <h1>{this.state.contador}</h1>
+        <br/><br/>
+        <button onClick={()=>this.onClickAumentar()}>Aumentar</button>
+      </div>
+    )
+    }
+}
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const domContainer = document.querySelector('#root22');
+ReactDOM.render(React.createElement(DivRoot), domContainer);
