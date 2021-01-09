@@ -38,9 +38,9 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 14260}
+      Script: {instanceID: 11854}
     - Class: 114
-      Script: {instanceID: 15224}
+      Script: {instanceID: 12838}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -378,7 +378,7 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: 3129d1ec440f21b2bccd831704c7a0d1
+      Hash: ee3bab34df77df4772738d495e31a5e0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player
@@ -487,4 +487,4 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Escenas/Juego.unity
-  playerPath: C:/GitHubRepos/SabadosTech/Unity/PingPong/bin/SabadosTech.exe
+  playerPath: C:/GitHubRepos/SabadosTech/Unity/PingPong/bin/PingPong.exe
