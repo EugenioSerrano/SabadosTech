@@ -19,6 +19,7 @@ class _CalculadoraState extends State<CalculadoraPage> {
   void _sumar() {
     int n1 = int.tryParse(_numero1.text) ?? 0;
     int n2 = int.tryParse(_numero2.text) ?? 0;
+
     setState(() {
       _resultado = n1 + n2;
     });
