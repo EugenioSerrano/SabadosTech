@@ -1,4 +1,4 @@
-import 'package:calculadora_flutter/calculadora.dart';
+import 'package:calculadora_flutter/calculadora2.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
         context,
         MaterialPageRoute(
-            builder: (context) => CalculadoraPage(title: 'Calculadora')));
+            builder: (context) => Calculadora2Page(title: 'Calculadora')));
   }
 
   @override
