@@ -10,12 +10,4 @@ _ReSharper.*
 *.suo
 *.user
 
-/Tools/CooperatorModeler/GeneratedCode
-/AplicacionWindows/Reservas/ConnectionStrings.config
-/SitioWeb/Web2019/4 - User Interface/LosSerranitos.FrontEnd/wwwroot/is-cache
-/SitioWeb/Web2018/4 - User Interface/LosSerranitos.FrontEnd/wwwroot/is-cache
-/SitioWeb/Web2019/4 - User Interface/LosSerranitos.FrontEnd/Logs/
-/SitioWeb/Web2019/4 - User Interface/LosSerranitos.FrontEnd/connectionstrings.json
-/desktop.ini
-/AplicacionWindows/ReservasApi/ConnectionStrings.config
-/AplicacionWindows/WindowsService/ConnectionStrings.config
+node_modules
