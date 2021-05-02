@@ -11,9 +11,13 @@ _ReSharper.*
 *.suo
 *.user
 
+<<<<<<< HEAD
 # Visual Studio Code
 .vscode
 
 # Node
 node_modules
 
+=======
+node_modules
+>>>>>>> 625ade6a856b3034c349771c0c534de1d6add296
