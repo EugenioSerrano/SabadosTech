@@ -12,3 +12,6 @@ peter.nombre = "Peter Parker"
 peter.color = "Rojo y Azul"
 
 print (peter.nombre)
+
+
+
