@@ -1,6 +1,19 @@
 import os
-clear = lambda: os.system('clear')  
+clear = lambda: os.system('clear')  # cambiar clear por cls
 clear()
 
-print ("Esto se imprime literalmente")
-print ("")
+nombre = "Eugenio"
+edad = 51
+esArgentino = True
+
+print ("Nombre:    " + nombre)
+print ("Edad:      " + str(edad))
+print ("Argentino: " + str(esArgentino))
+
+nombre = "Ezequiel"
+edad = 30
+esArgentino = True
+
+print ("Nombre:    " + nombre)
+print ("Edad:      " + str(edad))
+print ("Argentino: " + str(esArgentino))
