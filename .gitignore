@@ -11,14 +11,11 @@ _ReSharper.*
 *.suo
 *.user
 
-<<<<<<< HEAD
 # Visual Studio Code
 .vscode
 
 # Node
 node_modules
+package-lock.json
 
-=======
-node_modules
->>>>>>> 625ade6a856b3034c349771c0c534de1d6add296
-Svelte/HolaMundo/package-lock.json
+
